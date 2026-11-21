@@ -1,8 +1,8 @@
 import 'dart:math' as math;
 
-import '../core/arcade.dart';
-import '../core/level_plan.dart';
-import '../core/rng.dart';
+import 'package:studio_core/core/arcade.dart';
+import 'package:studio_core/core/level_plan.dart';
+import 'package:studio_core/core/rng.dart';
 
 /// Top-down mini football: you control a striker (virtual joystick), the
 /// ball sticks to your feet while you dribble, a tap shoots at the goal.
