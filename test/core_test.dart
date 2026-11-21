@@ -1,19 +1,19 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_081_mini_football/core/achievements.dart';
-import 'package:game_081_mini_football/core/clock.dart';
-import 'package:game_081_mini_football/core/collection.dart';
-import 'package:game_081_mini_football/core/daily.dart';
-import 'package:game_081_mini_football/core/game_rules.dart';
-import 'package:game_081_mini_football/core/game_session.dart';
-import 'package:game_081_mini_football/core/integrity.dart';
-import 'package:game_081_mini_football/core/level_plan.dart';
-import 'package:game_081_mini_football/core/missions.dart';
-import 'package:game_081_mini_football/core/monetization.dart';
-import 'package:game_081_mini_football/core/progression.dart';
-import 'package:game_081_mini_football/core/rng.dart';
-import 'package:game_081_mini_football/core/save_data.dart';
-import 'package:game_081_mini_football/core/save_store.dart';
-import 'package:game_081_mini_football/core/telemetry.dart';
+import 'package:studio_core/core/achievements.dart';
+import 'package:studio_core/core/clock.dart';
+import 'package:studio_core/core/collection.dart';
+import 'package:studio_core/core/daily.dart';
+import 'package:studio_core/core/game_rules.dart';
+import 'package:studio_core/core/game_session.dart';
+import 'package:studio_core/core/integrity.dart';
+import 'package:studio_core/core/level_plan.dart';
+import 'package:studio_core/core/missions.dart';
+import 'package:studio_core/core/monetization.dart';
+import 'package:studio_core/core/progression.dart';
+import 'package:studio_core/core/rng.dart';
+import 'package:studio_core/core/save_data.dart';
+import 'package:studio_core/core/save_store.dart';
+import 'package:studio_core/core/telemetry.dart';
 import 'package:game_081_mini_football/game/rules.dart';
 
 class _FailingSink implements AnalyticsSink {
